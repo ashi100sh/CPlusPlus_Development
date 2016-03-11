@@ -1,0 +1,20 @@
+1. Please go inside the folder and execute this command for compilation:
+	make
+	--this will compile all the files.--
+2. Execute with following
+	./output
+
+or 
+1. compile one by one
+
+        g++ -c ShortestPath.cpp ShortestPath.h
+        g++ -c Graph.cpp Graph.h
+        g++ -c PriorityQueue.cpp PriorityQueue.h
+        g++ -c ShortestPath.cpp ShortestPath.h
+        g++ -g -c Main.cc -o Main.o
+	g++ -o output Main.o Graph.o PriorityQueue.o ShortestPath.o
+
+	
+2. and execute
+	./output
+
